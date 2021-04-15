@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg,rgb(17, 17, 17),rgb(15, 15, 15));
+    height: 100vh;
+    width: 100%;
+
+    .card{
+    display: flex;  
+    width: 850px;
+    height: 500px;
+    border-radius: 20px;
+
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.822);
+
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+        background-color: #2e313f;
+        border-top-left-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+
+
+        .box1{
+            width: 70%;
+            height: 22%;
+            background:linear-gradient(to right,rgba(31, 218, 162, 0.493),rgb(28, 28, 59));            box-shadow: 1px 1px 5px black;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+        .box2{
+            width: 70%;
+            height: 22%;
+            background:linear-gradient(to right,#582966,rgb(85, 14, 151),rgb(28, 28, 59));           
+             border-radius: 7px;
+            box-shadow: 1px 1px 5px black;
+            cursor: pointer;
+
+
+
+        }
+        .box3{
+            width: 70%;
+            height: 22%;
+            background:linear-gradient(to right,rgba(0, 55, 207, 0.767),rgb(28, 28, 59));           
+             border-radius: 7px;
+            box-shadow: 1px 1px 5px black;
+            cursor: pointer;
+
+
+
+        }
+        .box4{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: 50%;
+            height: 15%;
+            font-size: 10px !important;
+            text-align: center;
+        }
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 100%;
+        background-color: #252734;
+        border-top-right-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+        box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.404);
+
+
+        .top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              width: 100%;
+              height: 45%;
+              box-shadow: 5px 1px 7px rgba(0, 0, 0, 0.295);
+
+              .box1{
+          width: 55%;
+          height: 80%;
+          background:linear-gradient(to right ,rgb(184, 35, 85),rgb(52, 46, 107),rgb(28, 28, 59));
+          box-shadow: 1px 1px 5px black;
+          border-radius: 15px;
+
+              }
+        }
+        .bottom{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+              width: 100%;
+              height: 55%;
+
+        }
+
+    }
+
+    }
+}
+
+.bottom h2{
+    font-size: 20px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+@media only screen and (max-width:900px){
+
+.card{
+    width: 300px !important;
+    height: 250px !important;
+    transition: 1s;
+}
+
+    .left{
+        width: 50% !important;
+        height: 100% !important;
+        transition: 1s;
+
+       
+    }
+
+.right{
+    width: 50% !important;
+    height: 100% !important;
+    transition: 1s;
+}
+
+
+
+#bottomtext1  h2,p{
+    font-size: 7px !important;
+    line-height: 10px;
+    transition: 1s;
+}
+#bottomtext2  h2,p{
+    font-size: 7px !important;
+    line-height: 10px;
+    transition: 1s;
+
+}
+#bottomtext3  h2,p{
+    font-size: 7px !important;
+    line-height: 10px;
+    transition: 1s;
+
+}
+
+.top .box1{
+    width: 80% !important;
+    height: 70% !important;
+
+    img{
+        width: 40px !important;
+    }
+    h3{
+        font-size: 9px;
+        margin-left: 10px !important;
+    }
+}
+
+
+#card1,#card2,#card3{
+
+width: 90px !important;
+height: 57px !important;
+
+img{
+    width: 24px !important;
+}
+h5{
+    font-size: 5px !important;
+}
+h6{
+    font-size: 5px;
+    bottom: 0 !important;
+}
+
+}
+
+.left i,h2{
+
+    font-size: 10px !important;
+}
+
+
+
+
+
+
+
+}
+
